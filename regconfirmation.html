@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Registration Confirmation</title>
+</head>
+<body>
+    <div class="banner">
+        <div class="header">
+            <h1>CINEMA BOOKING SYSTEM    |    now playing    |    coming soon    |    cart    |    search</h1>
+        </div>
+        <div class ="userbar">
+            <p class="greeting">Hello, Guest!</p>
+            <form action="action_page.php">
+                <label for="userID">username: </label>
+                <input type="text" id="userID" name="username" placeholder="">
+
+                <label for="passl">password: </label>
+                <input type="text" id="passl" name="passwordlogin" placeholder="">
+
+                <input type="submit" value="Log In">
+            </form>
+            <p class="newuser"> | New? <a href="regform.html">Register</a></p>
+        </div>
+    </div>
+    <div class="container">
+
+        <p class="messagetxt">A confirmation code has been sent to your email. Enter your 4-digit
+                verification code below to complete your registration.</p>
+        <form action="action_page.php">
+
+            <label for="vcode">Verification Code</label>
+            <input type="text" id="vcode" name="vercode" placeholder="XXXX">
+
+            <input type="submit" value="Done!">
+        </form>
+        <p class="messagetxt">A user ID will be sent to your email address to serve as your username for this site.</p>
+    </div>
+</body>
+</html>

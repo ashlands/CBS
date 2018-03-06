@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Search</title>
+</head>
+<body>
+    <div class="banner">
+        <div class="header">
+            <h1>CINEMA BOOKING SYSTEM    |    now playing    |    coming soon    |    cart    |    search</h1>
+        </div>
+        <div class ="userbar">
+            <p class="greeting">Hello, Guest!</p>
+            <form action="action_page.php">
+                <label for="userID">username: </label>
+                <input type="text" id="userID" name="username" placeholder="">
+
+                <label for="passl">password: </label>
+                <input type="text" id="passl" name="passwordlogin" placeholder="">
+
+                <input type="submit" value="Log In">
+            </form>
+            <p class="newuser"> | New? <a href="regform.html">Register</a></p>
+        </div>
+        <div class="pageheader">
+            <h2>Search</h2>
+            <form action="action_page.php">
+
+                <label for="title">Movie Title</label>
+                <input type="text" id="title" name="title" placeholder="*">
+
+                <label for="genre">Genre</label>
+                <input type="text" id="genre" name="genre" placeholder="*">
+
+                <label for="dt">Date/Time</label>
+                <input type="text" id="dt" name="datetime" placeholder="*">
+        </div>
+    </div>
+</body>
+</html>
